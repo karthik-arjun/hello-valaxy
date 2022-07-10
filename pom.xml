@@ -24,6 +24,17 @@
   </modules>
 
   <distributionManagement>
+    <snapshotRepository>       
+      <id>nexusRepo</id>
+      <url>http://3.133.102.82:8081/repository/sample-snapshots</url>
+    </snapshotRepository>
+           
+    <Repository>       
+      <id>nexusRepo</id>
+      <url>http://3.133.102.82:8081/repository/sample-releases</url>
+    </Repository>  
+           
+           
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
